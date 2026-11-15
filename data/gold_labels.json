@@ -1,0 +1,10 @@
+{
+  "_note": "Illustrative ground truth: how a project manager might label these notes after reviewing them. Used by scripts/eval.py. In production this set grows from every PM override in the app.",
+  "labels": {
+    "T01": "in_scope", "T02": "in_scope", "T03": "in_scope", "T04": "out_of_scope", "T05": "in_scope",
+    "T06": "in_scope", "T07": "out_of_scope", "T08": "out_of_scope", "T09": "in_scope", "T10": "out_of_scope",
+    "T11": "in_scope", "T12": "in_scope", "T13": "out_of_scope", "T14": "out_of_scope", "T15": "in_scope",
+    "T16": "out_of_scope", "T17": "out_of_scope", "T18": "out_of_scope", "T19": "in_scope", "T20": "in_scope",
+    "T21": "out_of_scope"
+  }
+}

@@ -1,0 +1,302 @@
+{
+  "_note": "Fictional sample data. Firm, client, people and numbers are invented to show the flow. The agent reads every timesheet note; the demo shows 21 representative notes. hoursToDate is the phase total from all timesheets.",
+  "firm": "Hartwell Barnes Architects",
+  "project": {
+    "id": "2026-014",
+    "name": "Riverside Clinic Expansion",
+    "client": "Riverside Community Health",
+    "pm": "Dana Okafor",
+    "contract": "Lump-sum fee by phase, AIA B101-style agreement",
+    "currentPhase": "CD",
+    "asOf": "2026-11-13"
+  },
+  "phases": [
+    {
+      "code": "SD",
+      "name": "Schematic Design",
+      "fee": 48000,
+      "budgetHours": 360,
+      "status": "Complete",
+      "hoursToDate": 392
+    },
+    {
+      "code": "DD",
+      "name": "Design Development",
+      "fee": 72000,
+      "budgetHours": 540,
+      "status": "Complete",
+      "hoursToDate": 601
+    },
+    {
+      "code": "CD",
+      "name": "Construction Documents",
+      "fee": 96000,
+      "budgetHours": 760,
+      "status": "In progress",
+      "percentCompleteReported": 55,
+      "hoursToDate": 470
+    },
+    {
+      "code": "CA",
+      "name": "Construction Administration",
+      "fee": 40000,
+      "budgetHours": 300,
+      "status": "Not started",
+      "hoursToDate": 0
+    }
+  ],
+  "rates": {
+    "Principal": 210,
+    "Project Manager": 165,
+    "Architect": 125,
+    "Designer": 95
+  },
+  "scope": [
+    {
+      "id": "S1",
+      "type": "included",
+      "text": "Schematic design: up to two design options, with one round of client revisions before SD sign-off."
+    },
+    {
+      "id": "S2",
+      "type": "included",
+      "text": "Design development and construction documents for a two-storey, approximately 12,000 sq ft addition housing 14 exam rooms, a pharmacy and staff areas, per the program dated 3 March 2026."
+    },
+    {
+      "id": "S3",
+      "type": "included",
+      "text": "Up to six client meetings during design development and four during construction documents."
+    },
+    {
+      "id": "S4",
+      "type": "included",
+      "text": "Coordination of structural and MEP consultants engaged under this agreement."
+    },
+    {
+      "id": "S5",
+      "type": "included",
+      "text": "Two presentation renderings at the end of schematic design."
+    },
+    {
+      "id": "S6",
+      "type": "included",
+      "text": "Code review and permit set preparation for the local authority."
+    },
+    {
+      "id": "X1",
+      "type": "excluded",
+      "text": "Changes to the approved program after design development sign-off are additional services."
+    },
+    {
+      "id": "X2",
+      "type": "excluded",
+      "text": "LEED or other green building certification documentation."
+    },
+    {
+      "id": "X3",
+      "type": "excluded",
+      "text": "Renderings or marketing materials beyond those listed in S5."
+    },
+    {
+      "id": "X4",
+      "type": "excluded",
+      "text": "Interior furniture, fixtures and equipment (FF&E) selection and specification."
+    },
+    {
+      "id": "X5",
+      "type": "excluded",
+      "text": "Existing-conditions surveys; the owner provides as-built drawings."
+    }
+  ],
+  "entries": [
+    {
+      "id": "T01",
+      "date": "2026-04-14",
+      "person": "M. Iyer",
+      "role": "Architect",
+      "phase": "SD",
+      "hours": 14,
+      "note": "Developed option A and option B massing for the addition."
+    },
+    {
+      "id": "T02",
+      "date": "2026-04-28",
+      "person": "M. Iyer",
+      "role": "Architect",
+      "phase": "SD",
+      "hours": 10,
+      "note": "Revised option B per client comments from the review meeting."
+    },
+    {
+      "id": "T03",
+      "date": "2026-05-06",
+      "person": "J. Reyes",
+      "role": "Designer",
+      "phase": "SD",
+      "hours": 16,
+      "note": "Two presentation renderings for SD sign-off."
+    },
+    {
+      "id": "T04",
+      "date": "2026-05-19",
+      "person": "M. Iyer",
+      "role": "Architect",
+      "phase": "SD",
+      "hours": 18,
+      "note": "Client asked to see a third layout option after SD sign-off, with the pharmacy moved to the ground floor."
+    },
+    {
+      "id": "T05",
+      "date": "2026-06-09",
+      "person": "D. Okafor",
+      "role": "Project Manager",
+      "phase": "DD",
+      "hours": 4,
+      "note": "DD client meeting #3, walls and finishes."
+    },
+    {
+      "id": "T06",
+      "date": "2026-06-23",
+      "person": "S. Park",
+      "role": "Architect",
+      "phase": "DD",
+      "hours": 12,
+      "note": "Coordinated roof framing with structural consultant."
+    },
+    {
+      "id": "T07",
+      "date": "2026-07-14",
+      "person": "D. Okafor",
+      "role": "Project Manager",
+      "phase": "DD",
+      "hours": 5,
+      "note": "DD meeting #7 with the hospital board, requested by client to review costs again."
+    },
+    {
+      "id": "T08",
+      "date": "2026-07-21",
+      "person": "J. Reyes",
+      "role": "Designer",
+      "phase": "DD",
+      "hours": 20,
+      "note": "Two extra renderings of the lobby for the client's fundraising brochure."
+    },
+    {
+      "id": "T09",
+      "date": "2026-07-28",
+      "person": "S. Park",
+      "role": "Architect",
+      "phase": "DD",
+      "hours": 9,
+      "note": "Client call about finishes."
+    },
+    {
+      "id": "T10",
+      "date": "2026-08-11",
+      "person": "M. Iyer",
+      "role": "Architect",
+      "phase": "DD",
+      "hours": 22,
+      "note": "Prepared LEED credit matrix and energy documentation the owner asked for."
+    },
+    {
+      "id": "T11",
+      "date": "2026-08-25",
+      "person": "S. Park",
+      "role": "Architect",
+      "phase": "DD",
+      "hours": 6,
+      "note": "Updated door hardware schedule."
+    },
+    {
+      "id": "T12",
+      "date": "2026-09-08",
+      "person": "D. Okafor",
+      "role": "Project Manager",
+      "phase": "CD",
+      "hours": 3,
+      "note": "CD kickoff with consultants."
+    },
+    {
+      "id": "T13",
+      "date": "2026-09-15",
+      "person": "M. Iyer",
+      "role": "Architect",
+      "phase": "CD",
+      "hours": 26,
+      "note": "Owner added an imaging suite on level 1. Re-planned level 1 and reworked plans A-101 to A-104."
+    },
+    {
+      "id": "T14",
+      "date": "2026-09-22",
+      "person": "S. Park",
+      "role": "Architect",
+      "phase": "CD",
+      "hours": 18,
+      "note": "Imaging suite: coordinated shielding and slab depression with structural and MEP."
+    },
+    {
+      "id": "T15",
+      "date": "2026-09-29",
+      "person": "J. Reyes",
+      "role": "Designer",
+      "phase": "CD",
+      "hours": 12,
+      "note": "Wall sections and details for the east elevation."
+    },
+    {
+      "id": "T16",
+      "date": "2026-10-06",
+      "person": "S. Park",
+      "role": "Architect",
+      "phase": "CD",
+      "hours": 8,
+      "note": "Code review for egress after the imaging suite change."
+    },
+    {
+      "id": "T17",
+      "date": "2026-10-13",
+      "person": "J. Reyes",
+      "role": "Designer",
+      "phase": "CD",
+      "hours": 10,
+      "note": "Selected waiting room furniture and exam room equipment per client request."
+    },
+    {
+      "id": "T18",
+      "date": "2026-10-20",
+      "person": "M. Iyer",
+      "role": "Architect",
+      "phase": "CD",
+      "hours": 6,
+      "note": "Site visit to check existing conditions at the connection to the old building."
+    },
+    {
+      "id": "T19",
+      "date": "2026-10-27",
+      "person": "D. Okafor",
+      "role": "Project Manager",
+      "phase": "CD",
+      "hours": 4,
+      "note": "CD meeting #3 with client."
+    },
+    {
+      "id": "T20",
+      "date": "2026-11-03",
+      "person": "S. Park",
+      "role": "Architect",
+      "phase": "CD",
+      "hours": 14,
+      "note": "Permit set: life safety plans."
+    },
+    {
+      "id": "T21",
+      "date": "2026-11-10",
+      "person": "M. Iyer",
+      "role": "Architect",
+      "phase": "CD",
+      "hours": 11,
+      "note": "Misc. revisions."
+    }
+  ]
+}
